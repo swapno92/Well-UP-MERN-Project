@@ -1,4 +1,4 @@
-.line{
+.line {
     border: 1px solid black;
 }
 
@@ -135,7 +135,7 @@
 }
 
 .aboutMe-section {
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 40px;
 }
 
@@ -162,41 +162,38 @@
     height: 350px;
     border-radius: 8px;
     display: flex;
-    align-items: end;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    overflow: hidden;
 
+}
+
+.card-one img {
+    width: 120%;
+    height: 85%;
+}
+
+.card-two img {
+    width: 110%;
+    height: 88%;
+    margin-top: -20px;
+}
+
+.card-three img {
+    width: 150%;
+    height: 80%;
 }
 
 .card button {
     padding: 8px 60px;
-    /* text-align: center; */
-    margin-bottom: 20px;
     font-size: 18px;
     border: none;
     border-radius: 8px;
     background-color: #E3CE0D;
 }
 
-.card-one {
-    background-image: url("./images/services-img/services-one.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.card-two {
-    background-image: url("./images/services-img/services-two.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.card-three {
-    background-image: url("./images/services-img/services-three.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .border {
     border: 1px solid gray;
 }

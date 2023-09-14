@@ -1,5 +1,9 @@
-.line {
+.line{
     border: 1px solid black;
+}
+
+.body {
+    margin-bottom: 100px;
 }
 
 .font-style {
@@ -90,24 +94,21 @@
     font-weight: 600;
 }
 
-.about-me-title p {
-    font-weight: 400;
-}
-
 .who-am-i {
     margin-top: -10px;
     font-size: 18px;
+    font-weight: 400;
 }
 
 .about-me {
     display: flex;
     padding: 10px 90px;
-    gap: 80px;
+    gap: 100px;
 }
 
 .my-img-div {
-    width: 33%;
-    height: 350px;
+    width: 35%;
+    height: 380px;
 }
 
 .my-img-div img {
@@ -117,9 +118,10 @@
 }
 
 .lorem-div {
-    width: 66%;
+    width: 60%;
 }
-.lorem-div p{
+
+.lorem-div p {
     font-size: 20px;
 }
 
@@ -130,4 +132,71 @@
 .down-btn {
     margin-top: 40px;
     background-color: #E3CE0D;
+}
+
+.aboutMe-section {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.services {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.aboutMe-p {
+    font-size: 18px;
+    margin-top: -10px;
+    font-weight: 300;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin-top: 50px;
+}
+
+.card {
+    width: 280px;
+    height: 350px;
+    border-radius: 8px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+}
+
+.card button {
+    padding: 8px 60px;
+    /* text-align: center; */
+    margin-bottom: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #E3CE0D;
+}
+
+.card-one {
+    background-image: url("./images/services-img/services-one.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-two {
+    background-image: url("./images/services-img/services-two.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-three {
+    background-image: url("./images/services-img/services-three.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.border {
+    border: 1px solid gray;
 }

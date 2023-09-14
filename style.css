@@ -1,12 +1,18 @@
 .line {
     border: 1px solid black;
 }
-.body{
-    width: 95%;
+
+.font-style {
+    font-family: 'Inter', sans-serif;
+}
+
+.body {
+    /* width: 95%; */
     margin-left: auto;
     margin-right: auto;
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,39 +21,113 @@
     margin-bottom: 50px; */
 
 }
+
 /* .ul{
     display: flex;
 } */
-.items{
+.items {
     display: flex;
     gap: 80px;
     align-items: center;
 }
-.items a{
+
+.items a {
     text-decoration: none;
     color: black;
 }
-.btn{
+
+.btn {
     color: white;
     background-color: rgba(255, 255, 0, 0.753);
-    padding: 10px 15px;
+    padding: 12px 30px;
     border: none;
     border-radius: 5px;
+    margin-top: -20px;
 }
 
-.title{
+.title {
     font-size: 30px;
     margin-top: -10px;
 }
-.banner{
+
+.banner {
     background-image: url('./images/1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200px;
+    height: 350px;
     color: white;
-    padding: 40px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 40px 50px; */
+    /* text-align: center; */
 }
-.nav  button{
+
+.nav button {
     color: black;
+}
+
+.title-div {
+    text-align: center;
+}
+
+.title-div p {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.title-div h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.about-me-title {
+    text-align: center;
+}
+
+.about-me-title h2 {
+    font-weight: 600;
+}
+
+.about-me-title p {
+    font-weight: 400;
+}
+
+.who-am-i {
+    margin-top: -10px;
+    font-size: 18px;
+}
+
+.about-me {
+    display: flex;
+    padding: 10px 90px;
+    gap: 80px;
+}
+
+.my-img-div {
+    width: 33%;
+    height: 350px;
+}
+
+.my-img-div img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.lorem-div {
+    width: 66%;
+}
+.lorem-div p{
+    font-size: 20px;
+}
+
+.lorem-div p {
+    font-weight: 400;
+}
+
+.down-btn {
+    margin-top: 40px;
+    background-color: #E3CE0D;
 }
